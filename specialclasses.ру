@@ -1,0 +1,21 @@
+﻿
+    def  __init__ ( self , name , number_of_floors ):
+      self.name =  name
+       self . number_of_floors  =  number_of_floors
+
+    definition   __len__ ( self ):
+        return. number_of_floors
+
+    definition  __str__ ( self ):
+       title  =  str ( f'Название: { self . name } , кол-во этажей: { self . number_of_floors } ' )
+       return. title
+
+hightower  =  Дом ( 'Башня' , 12 )
+warehouse   =  Дом ( 'Склад' , 4 )
+
+print  ( hightower )
+print  ( warehouse )
+
+print  ( len ( hightower ))
+print  (len ( warehouse ))
+
